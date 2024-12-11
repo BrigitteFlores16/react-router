@@ -13,6 +13,7 @@ function App() {
           <Route path="/" Component={HomePage} />
           <Route path="/about" Component={AboutPage} />
           <Route path="/post" Component={PostsPage} />
+          <Route path="/post/:id" Component={ShowPost} />
         </Route>
       </Routes>
     </BrowserRouter>
