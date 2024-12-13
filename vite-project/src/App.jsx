@@ -5,7 +5,7 @@ import AboutPage from "./pages/AboutPage";
 import PostsPage from "./pages/posts/PostsPage";
 import ShowPost from "./pages/ShowPost";
 import DefaultLayout from "./layouts/DefaultLayout";
-import { PostsProvider } from "./pages/posts/PostsContext";
+import { PostsProvider } from "../pages/posts/PostsContext";
 
 function App() {
   return (
